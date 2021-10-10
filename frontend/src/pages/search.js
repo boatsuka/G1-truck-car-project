@@ -80,10 +80,10 @@ const Search = () => {
         <Cards total={ctrlC} type="red" title="รถ" unit="คัน" />
       </Grid>
       <Grid item md={2}>
-        <Cards total={ctrlW} type="blue" title="สัปดาห์" unit="คัน" />
+        <Cards total={ctrlW} type="blue" title="สัปดาห์" unit="สัปดาห์" />
       </Grid>
       <Grid item md={2}>
-        <Cards total={ctrlMt} type="blue" title="เดือน" unit="คัน" />
+        <Cards total={ctrlMt} type="blue" title="เดือน" unit="เดือน" />
       </Grid>
       <Grid item xs={8}>
         <Card
